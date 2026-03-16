@@ -1,7 +1,5 @@
 # ☕ Groove & Grind - Masters of the Morning Mix
 
-> **Vibe Coded** with ✨ Google's Antigravity, Stitch, and Imagination.
-
 Groove & Grind is a premium boutique coffee roastery interface designed for those who treat their morning ritual like a master mix. Inspired by the golden era of 80s retro-luxury and high-output analog audio, this project blends artisanal craft with modern web excellence.
 
 ![Hero Preview](./public/images/hero-screenshot.png)
@@ -60,3 +58,5 @@ Groove & Grind isn't just a website; it's a mood. We've combined the tactile fee
 
 ## 📜 License
 MIT © 2026 Groove & Grind
+
+*This project was vibe coded with ❤️ using [Antigravity](https://antigravity.google), [Stitch](https://stitch.google), and my imagination.*
