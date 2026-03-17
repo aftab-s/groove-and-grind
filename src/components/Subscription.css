@@ -3,7 +3,7 @@
    ============================================ */
 
 .subscription-section {
-  padding: var(--s-3xl) 0;
+  padding: var(--s-2xl) 0;
   position: relative;
 }
 
@@ -14,7 +14,7 @@
   padding: var(--s-2xl) var(--s-xl);
   display: flex;
   align-items: center;
-  gap: var(--s-2xl);
+  gap: var(--s-xl);
   position: relative;
   overflow: hidden;
 }
@@ -58,7 +58,7 @@
   font-weight: 300;
   line-height: 1.7;
   max-width: 420px;
-  margin-bottom: var(--s-lg);
+  margin-bottom: var(--s-md);
 }
 
 .sub-perks {
@@ -141,49 +141,27 @@
   color: var(--color-text-muted);
 }
 
-/* Liquid button */
 .sub-btn {
   width: 100%;
   margin-top: var(--s-sm);
-  padding: 0.85rem;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  background: transparent;
-  border: 1.5px solid var(--color-amber);
-  color: var(--color-amber);
-  border-radius: var(--r-full);
-  position: relative;
-  overflow: hidden;
+  padding: 0.7rem 1.4rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 99px;
   cursor: pointer;
-  transition: color var(--t-med) var(--ease-out);
-  z-index: 1;
+  transition: all var(--t-fast) var(--ease-out);
 }
 
-.sub-btn::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 0%;
-  background: var(--gradient-amber);
-  transition: height 0.55s var(--ease-out);
-  z-index: -1;
+.sub-btn:hover {
+  background: #000;
+  transform: scale(1.02);
 }
-
-.sub-btn:hover { color: var(--color-bg); }
-.sub-btn:hover::before { height: 100%; }
 
 .sub-btn.done {
-  color: var(--color-bg);
-  border-color: var(--color-gold);
-}
-
-.sub-btn.done::before {
-  height: 100%;
-  background: var(--color-gold);
+  background: #000;
 }
 
 /* Success */

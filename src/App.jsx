@@ -6,6 +6,7 @@ import BentoGrid from './components/BentoGrid';
 import Lookbook from './components/Lookbook';
 import Subscription from './components/Subscription';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 export default function App() {
   useEffect(() => {
@@ -27,8 +28,10 @@ export default function App() {
     }
 
     requestAnimationFrame(raf);
+    window.__lenis = lenis;
 
     return () => {
+      window.__lenis = undefined;
       lenis.destroy();
     };
   }, []);
@@ -47,6 +50,7 @@ export default function App() {
         <Subscription />
       </main>
       <Footer />
+      <ScrollToTop />
     </>
   );
 }

@@ -9,6 +9,9 @@ export default function Hero() {
 
   // Subtle parallax for the background image
   const bgY = useTransform(smooth, [0, 1], ['0%', '15%']);
+  // Foreground card and copy move at a different rate for depth
+  const cardY = useTransform(smooth, [0, 1], ['0%', '-8%']);
+  const copyY = useTransform(smooth, [0, 1], ['0%', '-12%']);
 
   // Staggered reveal for typography
   const stagger = {
@@ -36,13 +39,19 @@ export default function Hero() {
       </div>
 
       {/* --- Foreground Content --- */}
-      <motion.div className="hero-container" variants={stagger} initial="hidden" animate="show">
+      <motion.div
+        className="hero-container"
+        variants={stagger}
+        initial="hidden"
+        animate="show"
+        style={{ y: cardY }}
+      >
         
-        <motion.h1 className="hero-title" variants={item}>
+        <motion.h1 className="hero-title" variants={item} style={{ y: copyY }}>
           <span className="brand-text">Groove<span className="brand-amp">&</span>Grind</span>
         </motion.h1>
 
-        <motion.p className="hero-sub" variants={item}>
+        <motion.p className="hero-sub" variants={item} style={{ y: copyY }}>
           Turn your mornings into masterpieces. Tuned to perfection. Every roast is a master mix — crafted with the warmth and precision of vintage analog audio.
         </motion.p>
 
