@@ -57,6 +57,7 @@ Groove & Grind is a coffee showcase website built around peaceful mornings, flor
 This project treats coffee as a mood and ritual. Every headline, transition, and section flow aims to communicate calm, beauty, and presence - inspired by flowers, music, and slow mornings.
 
 ---
+*This project was vibe coded with ❤️ using Antigravity, Stitch, and my imagination.*
 
 ## 📜 License
 MIT © 2026 Groove & Grind
