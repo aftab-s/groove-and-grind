@@ -21,26 +21,26 @@ export default function Footer() {
               <span className="brand-text">Groove<span className="brand-amp">&</span>Grind</span>
             </div>
             <p className="footer-tagline">
-              The Fidelity of Flavor. Boutique coffee roastery tuned to
-              perfection since 2026.
+              A peaceful coffee house of soft music, fresh flowers,
+              and carefully roasted beans for unhurried days.
             </p>
           </div>
           <div className="footer-nav-cols">
             <div className="footer-nav-col">
               <h4>Navigate</h4>
               <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#products">Our Blends</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#record-club">The Club</a></li>
+                <li><a href="#hero">Sanctuary</a></li>
+                <li><a href="#products">Floral Coffees</a></li>
+                <li><a href="#experience">Quiet Moments</a></li>
+                <li><a href="#record-club">Morning Circle</a></li>
               </ul>
             </div>
             <div className="footer-nav-col">
               <h4>Connect</h4>
               <ul>
                 <li><a href="#">Instagram</a></li>
-                <li><a href="#">Twitter / X</a></li>
-                <li><a href="#">Spotify</a></li>
+                <li><a href="#">Pinterest</a></li>
+                <li><a href="#">Playlist</a></li>
                 <li><a href="#">Contact</a></li>
               </ul>
             </div>
@@ -59,12 +59,12 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <span className="footer-copy">
-            © 2026 Groove & Grind. All rights reserved.
+            © 2026 Groove & Grind. Roasted with care.
           </span>
           <div className="footer-socials">
             <a href="#">IG</a>
-            <a href="#">TW</a>
-            <a href="#">SP</a>
+            <a href="#">PT</a>
+            <a href="#">PL</a>
           </div>
         </div>
 

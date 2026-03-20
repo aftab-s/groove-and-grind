@@ -4,49 +4,49 @@ import './BentoGrid.css';
 const blends = [
   {
     num: '01',
-    eyebrow: 'Signature Drop',
-    name: 'Morning Blossom',
+    eyebrow: 'Dawn Garden Roast',
+    name: 'Petal Dawn',
     origin: 'Single Origin · Ethiopia Yirgacheffe',
-    desc: 'Bright, floral, and utterly transcendent. A light-roast masterpiece with delicate notes of jasmine, white peach, and wild honey — like walking through a sunlit botanical garden.',
+    desc: 'A light and floral cup that opens like morning sunlight through leaves. Jasmine, white peach, and wild honey notes create a soft, graceful finish.',
     image: '/images/blend-1-floral.png',
     specs: [
       { label: 'Altitude', value: '2,200m' },
       { label: 'Process', value: 'Washed' },
       { label: 'Roast', value: 'Light' },
-      { label: 'Notes', value: 'Jasmine · Peach' },
+      { label: 'Notes', value: 'Jasmine · White Peach' },
     ],
-    tags: ['Single Origin', 'Floral', 'Specialty Grade'],
+    tags: ['Single Origin', 'Floral', 'Morning Brew'],
   },
   {
     num: '02',
-    eyebrow: 'Golden Hour Collection',
-    name: 'Sunlit Canopy',
+    eyebrow: 'Sunroom Collection',
+    name: 'Bloom Canopy',
     origin: 'Single Origin · Colombia Huila',
-    desc: 'Warm, inviting, and brilliantly balanced. Sunkissed notes of golden caramel, sweet citrus, and toasted almond that linger perfectly on the palate.',
+    desc: 'Balanced and comforting, with golden caramel, sweet citrus, and toasted almond. Built for calm afternoons, open windows, and a record spinning in the background.',
     image: '/images/blend-2-sunlit.png',
     specs: [
       { label: 'Altitude', value: '1,800m' },
       { label: 'Process', value: 'Honey' },
       { label: 'Roast', value: 'Medium-Light' },
-      { label: 'Notes', value: 'Caramel · Citrus' },
+      { label: 'Notes', value: 'Caramel · Sweet Citrus' },
     ],
-    tags: ['Single Origin', 'Bright', 'Balanced'],
+    tags: ['Single Origin', 'Warm', 'Balanced'],
     reversed: true,
   },
   {
     num: '03',
-    eyebrow: 'Reserve Edition',
-    name: "Crystal Clear",
+    eyebrow: 'Quiet Reserve',
+    name: 'Still Bloom',
     origin: 'Seasonal · Micro-Lot',
-    desc: 'A rare, delicate profile — only 200 bags released. Extremely clean and sweet with an almost tea-like clarity, featuring notes of honeysuckle and lemongrass.',
+    desc: 'A rare and delicate micro-lot with tea-like clarity. Honeysuckle and lemongrass bring a clean, whisper-light sweetness to each cup.',
     image: '/images/blend-3-crystal.png',
     specs: [
       { label: 'Edition', value: 'Spring 2026' },
-      { label: 'Bags', value: '200 Only' },
+      { label: 'Bags', value: '200 Limited' },
       { label: 'Roast', value: 'Light-Slow' },
       { label: 'Notes', value: 'Honeysuckle · Lemongrass' },
     ],
-    tags: ['Limited Edition', 'Micro-Lot', 'Seasonal'],
+    tags: ['Limited Edition', 'Micro-Lot', 'Delicate'],
   },
 ];
 
@@ -107,18 +107,18 @@ export default function BentoGrid() {
           transition={{ duration: 0.7 }}
         >
           <div className="blends-header-left">
-            <div className="section-eyebrow">Our Blends</div>
+            <div className="section-eyebrow">Floral Coffees</div>
             <h2 className="section-heading">
-              The <span className="italic-accent">Collection</span>
+              A Peaceful <span className="italic-accent">Collection</span>
             </h2>
             <p className="blends-desc">
-              Each blend is a carefully tuned track — a unique flavor profile
-              mastered for your palate.
+              Each roast is composed like a gentle song: floral aromatics,
+              soft sweetness, and a calm finish made for slow mornings.
             </p>
           </div>
           <div className="blends-header-right">
             <a href="#products" className="blends-view-all">
-              View All Blends →
+              See Full Coffee List →
             </a>
           </div>
         </motion.div>

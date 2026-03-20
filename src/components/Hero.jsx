@@ -52,15 +52,15 @@ export default function Hero() {
         </motion.h1>
 
         <motion.p className="hero-sub" variants={item} style={{ y: copyY }}>
-          Turn your mornings into masterpieces. Tuned to perfection. Every roast is a master mix — crafted with the warmth and precision of vintage analog audio.
+          Slow mornings, soft music, and fresh flowers on the table. Every roast is crafted for quiet joy, gentle focus, and the kind of peace that lingers after the last sip.
         </motion.p>
 
         <motion.div className="hero-cta-row" variants={item}>
           <a href="#products" className="hero-cta-primary">
-            Explore Blends
+            Explore Coffees
           </a>
           <a href="#record-club" className="hero-cta-secondary">
-            Join the Club
+            Join Morning Circle
           </a>
         </motion.div>
 
@@ -80,7 +80,7 @@ export default function Hero() {
             transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
           />
         </div>
-        <span className="scroll-label">Scroll</span>
+        <span className="scroll-label">Breathe</span>
       </motion.div>
     </section>
   );

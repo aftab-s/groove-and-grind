@@ -13,10 +13,10 @@ export default function Navbar() {
   }, []);
 
   const links = [
-    { href: '#hero', label: 'Home' },
-    { href: '#products', label: 'Our Blends' },
-    { href: '#experience', label: 'Experience' },
-    { href: '#record-club', label: 'The Club' },
+    { href: '#hero', label: 'Sanctuary' },
+    { href: '#products', label: 'Floral Coffees' },
+    { href: '#experience', label: 'Quiet Moments' },
+    { href: '#record-club', label: 'Morning Circle' },
   ];
 
   return (
@@ -38,7 +38,7 @@ export default function Navbar() {
             ))}
           </ul>
 
-          <a href="#record-club" className="nav-cta">Get started</a>
+          <a href="#record-club" className="nav-cta">Brew With Us</a>
 
           <button
             className={`nav-hamburger ${menuOpen ? 'active' : ''}`}

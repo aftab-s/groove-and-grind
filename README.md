@@ -1,35 +1,35 @@
-# ☕ Groove & Grind - Masters of the Morning Mix
+# ☕ Groove & Grind - Calm Coffee Rituals
 
-Groove & Grind is a premium boutique coffee roastery interface designed for those who treat their morning ritual like a master mix. Inspired by the golden era of 80s retro-luxury and high-output analog audio, this project blends artisanal craft with modern web excellence.
+Groove & Grind is a coffee showcase website built around peaceful mornings, floral notes, and soft music. The experience is designed to feel quiet, warm, and intentional - like the first slow cup of the day.
 
-![Hero Preview](./public/images/hero-screenshot.png)
-
----
-
-## 🎧 The Experience
-
-- **High-Fidelity UI**: A glassmorphic, vibrant aesthetic built for visual impact.
-- **Smooth Playback**: Integrated with **Lenis** for buttery-smooth kinetic scrolling.
-- **Dynamic Mix**: Powered by **Framer Motion** for micro-interactions, parallax reveals, and staggered typography.
-- **Bento Collection**: A beautifully designed grid showcasing our limited-edition roasts as tracks in a premium collection.
+![Hero Section Preview](./public/images/hero-screenshot.png)
 
 ---
 
-## 🛠️ The Tech Stack
+## 🌸 The Experience
 
-- **React 19** — The latest in component-driven architecture.
-- **Vite** — Lightning-fast development and optimized production builds.
-- **Framer Motion** — Production-ready animations and gesture handling.
-- **Lenis** — High-performance smooth scrolling.
-- **Vanilla CSS3** — Tailored tokens, custom properties, and glassmorphic effects for maximum control.
+- **Calm Visual Direction**: Soft light, flower-field atmosphere, and gentle contrast for a serene first impression.
+- **Smooth Scrolling**: Powered by **Lenis** for fluid page movement and relaxed pacing.
+- **Motion with Restraint**: Built with **Framer Motion** for elegant reveals, depth, and subtle interactions.
+- **Story-Led Sections**: Hero, floral coffee collection, quiet moments carousel, and a Morning Circle subscription flow.
 
 ---
 
-## 💿 Getting Started
+## 🛠️ Tech Stack
+
+- **React 19** - Component-driven UI architecture.
+- **Vite** - Fast local development and optimized production builds.
+- **Framer Motion** - Animation, transitions, and interaction choreography.
+- **Lenis** - Smooth scrolling behavior.
+- **Vanilla CSS3** - Custom styling system and visual effects.
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (Latest LTS recommended)
-- npm or yarn
+- Node.js (latest LTS recommended)
+- npm
 
 ### Installation
 1. Clone the repository:
@@ -41,22 +41,22 @@ Groove & Grind is a premium boutique coffee roastery interface designed for thos
    ```bash
    npm install
    ```
-3. Start the performance:
+3. Start local development:
    ```bash
    npm run dev
+   ```
+4. Build for production:
+   ```bash
+   npm run build
    ```
 
 ---
 
 ## ✨ Design Philosophy
 
-Groove & Grind isn't just a website; it's a mood. We've combined the tactile feel of a high-end turntable with the refreshing clarity of a single-origin Ethiopian roast. Every button, every scroll, and every transition has been tuned to perfection.
-
-*This project is **Vibe Coded** — engineered to feel as good as it looks.*
+This project treats coffee as a mood and ritual. Every headline, transition, and section flow aims to communicate calm, beauty, and presence - inspired by flowers, music, and slow mornings.
 
 ---
 
 ## 📜 License
 MIT © 2026 Groove & Grind
-
-*This project was vibe coded with ❤️ using [Antigravity](https://antigravity.google), [Stitch](https://stitch.google), and my imagination.*

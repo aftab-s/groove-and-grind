@@ -4,46 +4,46 @@ import './Lookbook.css';
 
 const slides = [
   {
-    tag: 'Botanical Brew',
+    tag: 'Flower Market Morning',
     title: 'Sunlit Atrium',
-    desc: 'A sleek acrylic pour-over station bathed in soft, natural botanical light.',
+    desc: 'A quiet pour-over corner with soft light, blooming stems, and the scent of fresh coffee in the air.',
     image: '/images/lookbook_1.png',
   },
   {
     tag: 'Golden Hour Roast',
     title: 'Amber Light',
-    desc: 'Warm sunlight catching premium, ethically sourced coffee beans.',
+    desc: 'Warm afternoon light brushing across handpicked beans and linen-covered tables.',
     image: '/images/lookbook_2.png',
   },
   {
-    tag: 'Crystal Clear',
-    title: 'Luminous Extraction',
-    desc: 'Flawless espresso dripping slowly into refined, minimalist glassware.',
+    tag: 'Quiet Extraction',
+    title: 'Luminous Pour',
+    desc: 'A slow, glowing espresso pull into clear glass, with nothing but calm around it.',
     image: '/images/lookbook_3.png',
   },
   {
     tag: 'Morning Symphony',
     title: 'Airy Daybreak',
-    desc: 'A bright, clean morning scene scored by a softly spinning vinyl record.',
+    desc: 'Fresh blooms, open windows, and a soft vinyl melody accompanying the first cup.',
     image: '/images/lookbook_4.png',
   },
   {
-    tag: 'Vault Selection',
-    title: 'Premium Reserves',
-    desc: 'Single-origin matte black & gold bags resting neatly on a frosted shelf.',
+    tag: 'Garden Reserve',
+    title: 'Quiet Shelves',
+    desc: 'Single-origin reserve bags resting beside pressed flowers and handwritten tasting cards.',
     image: '/images/lookbook_5.png',
   },
   {
-    tag: 'Minimalist Space',
-    title: 'The Tasting Bar',
-    desc: 'Clean lines, natural light wood, and high-end analog audio gear.',
+    tag: 'Listening Bar',
+    title: 'The Tasting Table',
+    desc: 'Natural woods, low-volume jazz, and a brewing station designed for unhurried rituals.',
     image: '/images/lookbook_6.png',
   },
 ];
 
 const marqueeWords = [
-  'High-Fidelity', 'Sunlit Brew', 'Groove & Grind', 'Crystal Extraction',
-  'Single Origin', 'The Master Mix', 'Boutique Coffee', 'Airy Aesthetics',
+  'Slow Mornings', 'Floral Aroma', 'Soft Jazz', 'Garden Table',
+  'Single Origin', 'Peaceful Ritual', 'Gentle Roast', 'Fresh Blooms',
 ];
 
 export default function Lookbook() {
@@ -60,14 +60,14 @@ export default function Lookbook() {
           transition={{ duration: 0.7 }}
         >
           <div className="section-eyebrow" style={{ justifyContent: 'center' }}>
-            The Experience
+            Quiet Rituals
           </div>
           <h2 className="section-heading">
-            Two <span className="italic-accent">Sides</span> of the Groove
+            Moments of <span className="italic-accent">Calm</span>
           </h2>
           <p className="experience-subtitle">
-            From the warm glow of a mid-century lounge to the electric pulse
-            of a neon-lit espresso bar.
+            From flower-filled mornings to soft evening pours,
+            every scene is designed to feel peaceful, warm, and musical.
           </p>
         </motion.div>
       </div>
@@ -108,7 +108,7 @@ export default function Lookbook() {
           viewport={{ once: true }}
           transition={{ delay: 0.4 }}
         >
-          ← Drag to explore →
+          ← Drag gently to explore →
         </motion.div>
       </div>
 

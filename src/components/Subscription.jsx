@@ -24,20 +24,20 @@ export default function Subscription() {
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
         >
           <div className="sub-copy">
-            <div className="section-eyebrow">Membership</div>
+            <div className="section-eyebrow">Morning Circle</div>
             <h2 className="sub-title">
-              The Record <span className="italic-accent">Club</span>
+              The Gentle <span className="italic-accent">Circle</span>
             </h2>
             <p className="sub-desc">
-              A curated monthly shipment of our finest roasts. Like a vinyl
-              subscription for your palate — each month, a new side to
-              discover.
+              A monthly coffee ritual for peaceful mornings. Receive floral
+              single-origin roasts, calming tasting notes, and a soft playlist
+              made to pair with your first cup.
             </p>
             <ul className="sub-perks">
-              <li><span className="perk-icon">✦</span> Exclusive single-origin drops</li>
-              <li><span className="perk-icon">✦</span> Roaster's tasting notes</li>
-              <li><span className="perk-icon">✦</span> Early limited edition access</li>
-              <li><span className="perk-icon">✦</span> Free shipping, every drop</li>
+              <li><span className="perk-icon">✦</span> Monthly floral single-origin coffee</li>
+              <li><span className="perk-icon">✦</span> Handwritten brew and tasting guide</li>
+              <li><span className="perk-icon">✦</span> Curated mellow music pairing</li>
+              <li><span className="perk-icon">✦</span> Complimentary shipping each month</li>
             </ul>
           </div>
 
@@ -51,12 +51,12 @@ export default function Subscription() {
             {done ? (
               <div className="sub-success">
                 <div className="sub-success-icon">♫</div>
-                <div className="sub-success-title">You're In, {form.name}</div>
-                <p className="sub-success-desc">Welcome to the club. Your first drop ships soon.</p>
+                <div className="sub-success-title">Welcome, {form.name}</div>
+                <p className="sub-success-desc">Your first peaceful coffee drop is on its way.</p>
               </div>
             ) : (
               <>
-                <div className="sub-form-title">Join the Club</div>
+                <div className="sub-form-title">Join Morning Circle</div>
                 <form onSubmit={submit}>
                   <div className="sub-form-group">
                     <label className="sub-form-label" htmlFor="sub-name">Name</label>
@@ -69,7 +69,7 @@ export default function Subscription() {
                       placeholder="you@email.com" value={form.email} onChange={handle} required />
                   </div>
                   <button type="submit" className={`sub-btn ${done ? 'done' : ''}`}>
-                    Press Play
+                    Reserve My Spot
                   </button>
                 </form>
               </>
